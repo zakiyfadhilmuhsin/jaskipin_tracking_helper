@@ -96,7 +96,7 @@ func GetManifest(c echo.Context) error {
 		// handle error
 	}
 	req.Header.Set("Content-Type", "application/json'")
-	req.Header.Set("Trackingmore-Api-Key", "0adc6568-bff3-429c-a3cb-cac4a96f6450")
+	req.Header.Set("Trackingmore-Api-Key", "d9636e04-1068-44db-8a55-cfa12742d89e")
 	resp, err := client.Do(req)
 	defer resp.Body.Close()
 	body, err := ioutil.ReadAll(resp.Body)
